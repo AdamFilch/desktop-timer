@@ -11,7 +11,12 @@ import SwiftUI
 struct Timer: View {
     var body: some View {
         VStack {
-            Text("TEST")
+            TimerHeader()
+            TimerFace()
+            HStack {
+                EstimatedFinish()
+                TimerButtons()
+            }
         }
     }
 }
