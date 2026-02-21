@@ -16,7 +16,7 @@ struct ContentView: View {
             Timer()
         }
         .Topbar()
-        .frame(minWidth: 500, minHeight: 500)
+        .frame(minWidth: 400, minHeight: 250)
     }
 }
 
